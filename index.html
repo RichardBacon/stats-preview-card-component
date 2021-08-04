@@ -5,37 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="shortcut icon"
       href="img/favicon-32x32.png"
       type="image/x-icon"
     />
 
+    <link rel="stylesheet" href="style.css" />
+
     <title>Stats Preview Card Component</title>
   </head>
   <body>
     <div class="card">
-      <img
-        src="img/image-header-mobile.jpg"
-        alt="Three women with laptops working in an office"
-      />
+      <div class="picture"></div>
 
-      <h1>Get <span>insights</span> that help your business grow.</h1>
+      <div class="card-text">
+        <h1 class="primary-heading">
+          Get <span class="primary-heading-highlight">insights</span> that help
+          your business grow.
+        </h1>
 
-      <p>
-        Discover the benefits of data analytics and make better decisions
-        regarding revenue, customer experience, and overall efficiency.
-      </p>
+        <p class="text">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
 
-      <div class="stats">
-        <h2>10k+</h2>
-        <p>Companies</p>
+        <div class="stats">
+          <div class="stat">
+            <h2 class="stat-value">10k+</h2>
+            <p class="stat-title">Companies</p>
+          </div>
 
-        <h2>314</h2>
-        <p>Templates</p>
+          <div class="stat">
+            <h2 class="stat-value">314</h2>
+            <p class="stat-title">Templates</p>
+          </div>
 
-        <h2>12m+</h2>
-        <p>Queries</p>
+          <div class="stat">
+            <h2 class="stat-value">12m+</h2>
+            <p class="stat-title">Queries</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
