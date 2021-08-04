@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/RichardBacon/stats-preview-card-component/issues"
   },
-  "homepage": "https://github.com/RichardBacon/stats-preview-card-component#readme"
+  "homepage": "https://github.com/RichardBacon/stats-preview-card-component#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  }
 }
